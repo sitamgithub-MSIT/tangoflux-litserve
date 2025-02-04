@@ -1,5 +1,9 @@
 # TangoFlux LitServe
 
+[![Open In Studio](https://pl-bolts-doc-images.s3.us-east-2.amazonaws.com/app-2/studio-badge.svg)](https://lightning.ai/sitammeur/studios/deploy-paligemma-2-vision-language-model)
+
+TangoFlux, a novel audio generation model, uses Diffusion Transformers conditioned on text and duration to produce high-quality audio. It employs a three-stage training process, including preference optimization using synthetic data, to achieve superior results. This project shows how to create a self-hosted, private API that deploys TangoFlux [text-to-audio model](https://huggingface.co/declare-lab/TangoFlux) with LitServe, an easy-to-use, flexible serving engine for AI models built on FastAPI.
+
 ## Project Structure
 
 The project is structured as follows:
@@ -31,7 +35,7 @@ Now, you can see the model's output based on the input request. The model will g
 
 ## Usage
 
-The project can be used to serve the TangoFlux text-to-audio model using LitServe.
+The project can be used to serve the TangoFlux text-to-audio model using LitServe. It particularly allows you to input a text prompt and duration to generate an audio file, suggesting potential use cases in the audio generation domain, such as generating sound for videos, audiobooks, entertainment, and more.
 
 ## Contributing
 
