@@ -32,7 +32,7 @@ class TangoFluxAPI(ls.LitAPI):
         Convert the request payload to model input.
         """
         # Extract the inputs from request payload
-        prompt = request.get("prompt", "")
+        prompt = request.get("prompt")
         duration = request.get("duration", 10)
 
         # Return the inputs
